@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Monefy.iml" filepath="$PROJECT_DIR$/Monefy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MonefyWalletPhoneAutomation.iml" filepath="$PROJECT_DIR$/.idea/MonefyWalletPhoneAutomation.iml" />
     </modules>
   </component>
 </project>

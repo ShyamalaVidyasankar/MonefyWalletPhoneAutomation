@@ -21,7 +21,7 @@ public class GenericMethods {
 
     public static AndroidDriver<AndroidElement> capabilities() throws Exception {
         File apkPath = new File("src");
-        File apkName = new File(apkPath, "com.monefy.app.lite_2019-10-27.apk");
+        File apkName = new File(apkPath, "com.monefy.app.lite_2022-06-02.apk");
         DesiredCapabilities cap = new DesiredCapabilities();
 
         cap.setCapability(MobileCapabilityType.DEVICE_NAME, "N26phone");
