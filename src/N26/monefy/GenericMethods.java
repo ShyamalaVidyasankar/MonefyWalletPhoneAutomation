@@ -24,9 +24,9 @@ public class GenericMethods {
         File apkName = new File(apkPath, "com.monefy.app.lite_2022-06-02.apk");
         DesiredCapabilities cap = new DesiredCapabilities();
 
-        cap.setCapability(MobileCapabilityType.DEVICE_NAME, "N26phone");
+        cap.setCapability(MobileCapabilityType.DEVICE_NAME, "MonefyDevice");
         cap.setCapability(MobileCapabilityType.APP, apkName.getAbsolutePath());
-        cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
+        cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "mobapp1");
 
         driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, 10), cap);
